@@ -8,6 +8,7 @@ contract Score {
     address owner;
     
     event Score_set(uint indexed);
+    mapping(address => uint) public score_list;
     
     constructor() {
         owner = msg.sender;
@@ -25,7 +26,12 @@ contract Score {
     
     function setScore(uint new_score) public onlyOwner {
         score = new_score;
-        emit Score_set(new_score);
+        emit Score_set(score);
+    }
+    
+    function setUserScore(address user, uint new_score) public onlyOwner {
+        score_list[user] = new_score;
+        emit Score_set(score_list[user]);
     } 
     
 }

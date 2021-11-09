@@ -39,12 +39,49 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "score_list",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "new_score",
 						"type": "uint256"
 					}
 				],
 				"name": "setScore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "new_score",
+						"type": "uint256"
+					}
+				],
+				"name": "setUserScore",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -78,10 +115,10 @@
 	},
 	"sources": {
 		"contracts/Score.sol": {
-			"keccak256": "0x1e48e39030362f669692776b8bc546a6594989c4b115a254a7d2475cd40a2c14",
+			"keccak256": "0xc12d3f976195720b61cde51820fd66f19630011cb9ea64079faff45ca65abd80",
 			"urls": [
-				"bzz-raw://94ca1cff395f4e374d1ef5c2c5585bf5391402665880c24a68a8f66aee093c49",
-				"dweb:/ipfs/QmT4hcQ7Pn1Dd6h5Mei2CkhmbZWwDozZXd9qwPRcoKjRJ8"
+				"bzz-raw://eebeb35b8989d05b18000030749a2588acbdc157cf0e8497f9109c1e31af22d6",
+				"dweb:/ipfs/QmdD7faZNFMoKxChFPwtZJYhcBKptpeRV1MZuEGDnHoYiG"
 			]
 		}
 	},
