@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_userAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_userID",
+						"type": "uint256"
+					}
+				],
+				"name": "createRecord1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_userAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_userID",
+						"type": "uint256"
+					}
+				],
+				"name": "createRecord2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getRecordCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "recordCount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "records",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "userAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "userID",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ListExample.sol": "ListExample"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ListExample.sol": {
+			"keccak256": "0x36d81d4d6aa03c8f0fef64bdb32d11cf56f49e02618c90f8b0ab483410a86387",
+			"urls": [
+				"bzz-raw://caa091ab41d80e03f7d97e9b053000a471ac2d09e096faa7bf122e39a067cdbf",
+				"dweb:/ipfs/QmRNHj1RwjFpVYAhdY6ekVNGgG1GEVZU6rigbM2jaGFRuX"
+			]
+		}
+	},
+	"version": 1
+}
